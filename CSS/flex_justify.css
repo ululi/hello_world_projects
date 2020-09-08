@@ -9,10 +9,17 @@ body{
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    /* justify-content: space-between;
+    /* justify-content: center; centers contents along the horizontal axis
+    justify-content: space-between; 
     justify-content: space-evenly;
-    justify-content: flex-end;
-    justify-content: flex-start; */
+    justify-content: flex-end; aligns content to the end 
+    justify-content: flex-start;  aligns contents to the start (default)
+    flex-direction: row default;
+    flex-direction: column;
+    flex-direction: row-reverse; reverses contents in in a row direction
+    flex-direction: column-reverse; reverses in a column direction
+    flex-flow: wrap column-reverse; wraps and reverses contents in a column direction
+    flex-flow:wrap row-reverse; */
     flex-wrap: wrap;
 }
 div{
