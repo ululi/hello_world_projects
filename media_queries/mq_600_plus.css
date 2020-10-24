@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 3vw;
+}
+
+header,
+article,
+footer {
+    margin-top: 6px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header div,
+header nav {
+    width: 100%;
+    margin-top: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+section,
+aside {
+    width: 100%;
+    margin-top: 10px;
+}
